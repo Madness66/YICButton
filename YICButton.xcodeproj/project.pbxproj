@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12A9352624BFF36C006E60BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A9352524BFF36C006E60BC /* AppDelegate.m */; };
+		12A9352C24BFF36C006E60BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A9352B24BFF36C006E60BC /* ViewController.m */; };
+		12A9352F24BFF36C006E60BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A9352D24BFF36C006E60BC /* Main.storyboard */; };
+		12A9353124BFF371006E60BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A9353024BFF371006E60BC /* Assets.xcassets */; };
+		12A9353424BFF371006E60BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A9353224BFF371006E60BC /* LaunchScreen.storyboard */; };
+		12A9353724BFF371006E60BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A9353624BFF371006E60BC /* main.m */; };
+		12A9354124BFF371006E60BC /* YICButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A9354024BFF371006E60BC /* YICButtonTests.m */; };
+		12A9354C24BFF371006E60BC /* YICButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A9354B24BFF371006E60BC /* YICButtonUITests.m */; };
+		12A9355B24BFF951006E60BC /* UIControl+YICEventInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A9355A24BFF951006E60BC /* UIControl+YICEventInterval.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12A9353D24BFF371006E60BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A9351924BFF36C006E60BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A9352024BFF36C006E60BC;
+			remoteInfo = YICButton;
+		};
+		12A9354824BFF371006E60BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A9351924BFF36C006E60BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A9352024BFF36C006E60BC;
+			remoteInfo = YICButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12A9352124BFF36C006E60BC /* YICButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YICButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A9352424BFF36C006E60BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12A9352524BFF36C006E60BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12A9352A24BFF36C006E60BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12A9352B24BFF36C006E60BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12A9352E24BFF36C006E60BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12A9353024BFF371006E60BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12A9353324BFF371006E60BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12A9353524BFF371006E60BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A9353624BFF371006E60BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12A9353C24BFF371006E60BC /* YICButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YICButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A9354024BFF371006E60BC /* YICButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YICButtonTests.m; sourceTree = "<group>"; };
+		12A9354224BFF371006E60BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A9354724BFF371006E60BC /* YICButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YICButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A9354B24BFF371006E60BC /* YICButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YICButtonUITests.m; sourceTree = "<group>"; };
+		12A9354D24BFF371006E60BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A9355924BFF951006E60BC /* UIControl+YICEventInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+YICEventInterval.h"; sourceTree = "<group>"; };
+		12A9355A24BFF951006E60BC /* UIControl+YICEventInterval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+YICEventInterval.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12A9351E24BFF36C006E60BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A9353924BFF371006E60BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A9354424BFF371006E60BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12A9351824BFF36C006E60BC = {
+			isa = PBXGroup;
+			children = (
+				12A9352324BFF36C006E60BC /* YICButton */,
+				12A9353F24BFF371006E60BC /* YICButtonTests */,
+				12A9354A24BFF371006E60BC /* YICButtonUITests */,
+				12A9352224BFF36C006E60BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12A9352224BFF36C006E60BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12A9352124BFF36C006E60BC /* YICButton.app */,
+				12A9353C24BFF371006E60BC /* YICButtonTests.xctest */,
+				12A9354724BFF371006E60BC /* YICButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12A9352324BFF36C006E60BC /* YICButton */ = {
+			isa = PBXGroup;
+			children = (
+				12A9352424BFF36C006E60BC /* AppDelegate.h */,
+				12A9352524BFF36C006E60BC /* AppDelegate.m */,
+				12A9352A24BFF36C006E60BC /* ViewController.h */,
+				12A9352B24BFF36C006E60BC /* ViewController.m */,
+				12A9355924BFF951006E60BC /* UIControl+YICEventInterval.h */,
+				12A9355A24BFF951006E60BC /* UIControl+YICEventInterval.m */,
+				12A9352D24BFF36C006E60BC /* Main.storyboard */,
+				12A9353024BFF371006E60BC /* Assets.xcassets */,
+				12A9353224BFF371006E60BC /* LaunchScreen.storyboard */,
+				12A9353524BFF371006E60BC /* Info.plist */,
+				12A9353624BFF371006E60BC /* main.m */,
+			);
+			path = YICButton;
+			sourceTree = "<group>";
+		};
+		12A9353F24BFF371006E60BC /* YICButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				12A9354024BFF371006E60BC /* YICButtonTests.m */,
+				12A9354224BFF371006E60BC /* Info.plist */,
+			);
+			path = YICButtonTests;
+			sourceTree = "<group>";
+		};
+		12A9354A24BFF371006E60BC /* YICButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12A9354B24BFF371006E60BC /* YICButtonUITests.m */,
+				12A9354D24BFF371006E60BC /* Info.plist */,
+			);
+			path = YICButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12A9352024BFF36C006E60BC /* YICButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A9355024BFF371006E60BC /* Build configuration list for PBXNativeTarget "YICButton" */;
+			buildPhases = (
+				12A9351D24BFF36C006E60BC /* Sources */,
+				12A9351E24BFF36C006E60BC /* Frameworks */,
+				12A9351F24BFF36C006E60BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YICButton;
+			productName = YICButton;
+			productReference = 12A9352124BFF36C006E60BC /* YICButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12A9353B24BFF371006E60BC /* YICButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A9355324BFF371006E60BC /* Build configuration list for PBXNativeTarget "YICButtonTests" */;
+			buildPhases = (
+				12A9353824BFF371006E60BC /* Sources */,
+				12A9353924BFF371006E60BC /* Frameworks */,
+				12A9353A24BFF371006E60BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A9353E24BFF371006E60BC /* PBXTargetDependency */,
+			);
+			name = YICButtonTests;
+			productName = YICButtonTests;
+			productReference = 12A9353C24BFF371006E60BC /* YICButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12A9354624BFF371006E60BC /* YICButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A9355624BFF371006E60BC /* Build configuration list for PBXNativeTarget "YICButtonUITests" */;
+			buildPhases = (
+				12A9354324BFF371006E60BC /* Sources */,
+				12A9354424BFF371006E60BC /* Frameworks */,
+				12A9354524BFF371006E60BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A9354924BFF371006E60BC /* PBXTargetDependency */,
+			);
+			name = YICButtonUITests;
+			productName = YICButtonUITests;
+			productReference = 12A9354724BFF371006E60BC /* YICButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12A9351924BFF36C006E60BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = YIC;
+				TargetAttributes = {
+					12A9352024BFF36C006E60BC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					12A9353B24BFF371006E60BC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 12A9352024BFF36C006E60BC;
+					};
+					12A9354624BFF371006E60BC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 12A9352024BFF36C006E60BC;
+					};
+				};
+			};
+			buildConfigurationList = 12A9351C24BFF36C006E60BC /* Build configuration list for PBXProject "YICButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12A9351824BFF36C006E60BC;
+			productRefGroup = 12A9352224BFF36C006E60BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12A9352024BFF36C006E60BC /* YICButton */,
+				12A9353B24BFF371006E60BC /* YICButtonTests */,
+				12A9354624BFF371006E60BC /* YICButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12A9351F24BFF36C006E60BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A9353424BFF371006E60BC /* LaunchScreen.storyboard in Resources */,
+				12A9353124BFF371006E60BC /* Assets.xcassets in Resources */,
+				12A9352F24BFF36C006E60BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A9353A24BFF371006E60BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A9354524BFF371006E60BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12A9351D24BFF36C006E60BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A9355B24BFF951006E60BC /* UIControl+YICEventInterval.m in Sources */,
+				12A9352C24BFF36C006E60BC /* ViewController.m in Sources */,
+				12A9352624BFF36C006E60BC /* AppDelegate.m in Sources */,
+				12A9353724BFF371006E60BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A9353824BFF371006E60BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A9354124BFF371006E60BC /* YICButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A9354324BFF371006E60BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A9354C24BFF371006E60BC /* YICButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12A9353E24BFF371006E60BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A9352024BFF36C006E60BC /* YICButton */;
+			targetProxy = 12A9353D24BFF371006E60BC /* PBXContainerItemProxy */;
+		};
+		12A9354924BFF371006E60BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A9352024BFF36C006E60BC /* YICButton */;
+			targetProxy = 12A9354824BFF371006E60BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12A9352D24BFF36C006E60BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12A9352E24BFF36C006E60BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12A9353224BFF371006E60BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12A9353324BFF371006E60BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12A9354E24BFF371006E60BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12A9354F24BFF371006E60BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12A9355124BFF371006E60BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TV887Q275;
+				INFOPLIST_FILE = YICButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiqing.YICButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		12A9355224BFF371006E60BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TV887Q275;
+				INFOPLIST_FILE = YICButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiqing.YICButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		12A9355424BFF371006E60BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YICButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiqing.YICButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YICButton.app/YICButton";
+			};
+			name = Debug;
+		};
+		12A9355524BFF371006E60BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YICButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiqing.YICButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YICButton.app/YICButton";
+			};
+			name = Release;
+		};
+		12A9355724BFF371006E60BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YICButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiqing.YICButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YICButton;
+			};
+			name = Debug;
+		};
+		12A9355824BFF371006E60BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YICButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiqing.YICButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YICButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12A9351C24BFF36C006E60BC /* Build configuration list for PBXProject "YICButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A9354E24BFF371006E60BC /* Debug */,
+				12A9354F24BFF371006E60BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A9355024BFF371006E60BC /* Build configuration list for PBXNativeTarget "YICButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A9355124BFF371006E60BC /* Debug */,
+				12A9355224BFF371006E60BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A9355324BFF371006E60BC /* Build configuration list for PBXNativeTarget "YICButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A9355424BFF371006E60BC /* Debug */,
+				12A9355524BFF371006E60BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A9355624BFF371006E60BC /* Build configuration list for PBXNativeTarget "YICButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A9355724BFF371006E60BC /* Debug */,
+				12A9355824BFF371006E60BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12A9351924BFF36C006E60BC /* Project object */;
+}
