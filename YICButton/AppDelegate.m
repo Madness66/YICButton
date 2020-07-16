@@ -23,6 +23,7 @@
     _window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
     
     [_window makeKeyAndVisible];
+    NSLog(@"第一次修改");
     return YES;
 }
 
